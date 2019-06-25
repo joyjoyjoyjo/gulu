@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/joyjoyjoyjo/gulu/issues"
   },
-  "homepage": "https://github.com/joyjoyjoyjo/gulu#readme"
+  "homepage": "https://github.com/joyjoyjoyjo/gulu#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
