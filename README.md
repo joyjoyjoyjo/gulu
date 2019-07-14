@@ -42,11 +42,6 @@
        }
     }
     ```
-4. 引入 svg symbos
-    ```javascript
-    <script src="//at.alicdn.com/t/font_1247321_cbxqmyr7au.js"></script>
-    ```  
-  
 ## 文档
 ## 提问
 ## 变更记录
