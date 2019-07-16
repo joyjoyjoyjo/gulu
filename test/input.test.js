@@ -21,7 +21,7 @@ describe('Button', () => {
         it('接收value', () => {
             vm = new Constructor({
                 propsData: {
-                    valuee: '1234'
+                    value: '1234'
                 }
             }).$mount();
             const inputElement = vm.$el.querySelector('input');
@@ -73,9 +73,14 @@ describe('Button', () => {
                 vm.$on(eventName,callback);
                 //出发Input的各种事件
                 let event = new Event(eventName);
+                Object.defineProperty(
+                    event,'target',{
+                        value: {value: 'hi'},enumerable: true
+                    }
+                );
                 let inputElement = vm.$el.querySelector('input');
                 inputElement.dispatchEvent(event);
-                expect(callback).to.have.been.calledWith(event);
+                expect(callback).to.have.been.calledWith('hi');
             });
         });
         // it('支持 input 事件',()=>{
