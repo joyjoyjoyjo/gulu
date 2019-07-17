@@ -34,15 +34,20 @@
 <body>
 <div id="app">
     <div class="box">
-        <g-input valuee="你好" disabled></g-input>
-        <g-input valuee="你好" readonly></g-input>
-        <g-input valuee="你好"></g-input>
+        <g-input value="你好" disabled></g-input>
+        <g-input value="你好" readonly></g-input>
+        <g-input value="你好"></g-input>
     </div>
     <div class="box">
-        <g-input valuee="狗" error="姓名不能少于两个字"></g-input>
+        <g-input value="狗" error="姓名不能少于两个字"></g-input>
     </div>
     <div class="box">
-        <g-input valuee="猫" @change="inputChange"></g-input>
+        <g-input value="猫" @change="inputChange"></g-input>
+    </div>
+    <div class="box">
+        <g-input v-model="message"></g-input>
+        {{message}}
+        <button @click="message+=1">+1</button>
     </div>
     <div style="margin: 20px;">
         <g-button icon="set" :loading="loading1" @click="loading1 = !loading1">按钮</g-button>

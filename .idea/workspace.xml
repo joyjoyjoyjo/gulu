@@ -6,11 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a38f4d-c7ba-4eab-b654-99ac6eed26ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/input.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+            <state relative-caret-position="231">
+              <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
               <folding>
                 <element signature="e#28#49#0" expanded="true" />
               </folding>
@@ -154,8 +150,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
-    <option name="y" value="55" />
+    <option name="x" value="328" />
+    <option name="y" value="62" />
     <option name="width" value="1369" />
     <option name="height" value="1064" />
   </component>
@@ -225,7 +221,7 @@
       <updated>1561477652281</updated>
       <workItem from="1561477653646" duration="37715000" />
       <workItem from="1562982661524" duration="2989000" />
-      <workItem from="1563030610204" duration="23144000" />
+      <workItem from="1563030610204" duration="23806000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1561477934250</created>
@@ -388,14 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563207089769</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="让Input支持v-model双向绑定">
+      <created>1563290543281</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563290543281</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63848000" />
+    <option name="totallyTimeSpent" value="64510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="610" y="44" width="1095" height="851" extended-state="0" />
+    <frame x="503" y="11" width="1095" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32924527" />
@@ -448,7 +451,8 @@
     <MESSAGE value="更新readme" />
     <MESSAGE value="input测试用例" />
     <MESSAGE value="完善测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善测试用例" />
+    <MESSAGE value="让Input支持v-model双向绑定" />
+    <option name="LAST_COMMIT_MESSAGE" value="让Input支持v-model双向绑定" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/.gitignore" />
@@ -620,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/input.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+        <state relative-caret-position="231">
+          <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
           <folding>
             <element signature="e#28#49#0" expanded="true" />
           </folding>
