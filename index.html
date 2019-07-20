@@ -33,29 +33,38 @@
 </head>
 <body>
 <div id="app">
-    <g-row>
-        <g-col>1</g-col>
-        <g-col>2</g-col>
-    </g-row>
-    <g-row>
-        <g-col>1</g-col>
-        <g-col>2</g-col>
-        <g-col>3</g-col>
-    </g-row>
-    <g-row>
-        <g-col>1</g-col>
-        <g-col>2</g-col>
-        <g-col>3</g-col>
-        <g-col>4</g-col>
-    </g-row>
-    <g-row>
-        <g-col span="2">2</g-col>
-        <g-col span="22">22</g-col>
-    </g-row>
-    <g-row>
-        <g-col span="4">4</g-col>
-        <g-col span="20">20</g-col>
-    </g-row>
+    <div style="border:1px solid black;">
+        <g-row gutter="20">
+            <g-col>1</g-col>
+            <g-col>2</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col>1</g-col>
+            <g-col>2</g-col>
+            <g-col>3</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col>1</g-col>
+            <g-col>2</g-col>
+            <g-col>3</g-col>
+            <g-col>4</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="2">2</g-col>
+            <g-col span="22">22</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="6">6</g-col>
+            <g-col span="18">18</g-col>
+        </g-row>
+        <g-row gutter="20">
+            <g-col span="4">4</g-col>
+            <g-col span="4" >4</g-col>
+            <g-col span="4" offset="2">4</g-col>
+            <g-col span="8" offset="2">8</g-col>
+        </g-row>
+    </div>
+
     <hr>
     <div class="box">
         <g-input value="你好" disabled></g-input>
