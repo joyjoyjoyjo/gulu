@@ -22,7 +22,7 @@
         },
         computed:{
             colClass(){
-                let {span,offset}=this
+                let {span,offset}=this;
                 return [
                     span && `col-${span}`,
                     offset && `offset-${offset}`
@@ -39,6 +39,7 @@
 </script>
 <style scoped lang="scss">
     .col {
+        width: 50%;
         $class-prefix: col-;
         @for $n from 1 through 24 {
             &.#{$class-prefix}#{$n} {
