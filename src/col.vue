@@ -1,6 +1,5 @@
 <template>
-    <div class="col" :class="colClass"
-    :style="colStyle">
+    <div class="col" :class="colClass" :style="colStyle">
             <slot></slot>
     </div>
 </template>
@@ -31,7 +30,7 @@
             colStyle(){
                 return {
                     paddingLeft: this.gutter / 2 +'px',
-                    paddingRight: this.gutter /2 +'px',
+                    paddingRight: this.gutter / 2 +2 +'px',
                 }
             }
         }
@@ -39,7 +38,6 @@
 </script>
 <style scoped lang="scss">
     .col {
-        width: 50%;
         $class-prefix: col-;
         @for $n from 1 through 24 {
             &.#{$class-prefix}#{$n} {
